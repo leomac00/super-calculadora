@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Super calc! - Leonardo Machado</title>
+
+		<link rel="stylesheet" href="./reset.css" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+
+	<body>
+		<h1 class="title">Super Calculadora</h1>
+		<form>
+			<div class="inputs">
+				Primeiro número (A) :<input
+					type="number"
+					placeholder="digite um número"
+					id="inputA"
+				/>
+				Seundo número (B) :
+				<input type="number" placeholder="digite um número" id="inputB" />
+			</div>
+
+			<div class="results">
+				<label>A + B : <input readonly type="text" id="sum" /></label><br />
+				<label>A - B : <input readonly type="text" id="difAB" /></label><br />
+				<label>B - A : <input readonly type="text" id="difBA" /></label><br />
+				<label>A x B : <input readonly type="text" id="AxB" /></label><br />
+				<label>A / B : <input readonly type="text" id="AbyB" /></label><br />
+				<label>B / A : <input readonly type="text" id="BbyA" /></label><br />
+				<label>A² : <input readonly type="text" id="AxA" /></label><br />
+				<label>B² <input readonly type="text" id="BxB" /></label><br />
+				<label
+					>Divisores inteiros de A :
+					<input readonly type="text" id="divIntA" /></label
+				><br />
+				<label
+					>Divisores inteiros de B :
+					<input readonly type="text" id="divIntB" /></label
+				><br />
+				<label>A! : <input readonly type="text" id="Afactorial" /></label><br />
+				<label>B! : <input readonly type="text" id="Bfactorial" /></label><br />
+			</div>
+		</form>
+
+		<script defer src="./main.js"></script>
+	</body>
+</html>
