@@ -1,4 +1,4 @@
-  <h1>Calculadora</h1>
+  <h1>Super Calculadora</h1>
   <h3>Descrição:</h3>
   <p>Este foi o primeiro projeto que fiz para o bootcamp da IGTI, se trata de uma calculadora automatica, onde dois valores são inseridos e partir desses dois valores alguns calculos são feitos e mostrados para o usuário.</p>
   <h3>Pontos notáveis:</h3>
